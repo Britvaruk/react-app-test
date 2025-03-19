@@ -1,13 +1,17 @@
+@import 'shared/styles/bs-theme';
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: $bg-main;
+  color: $text-main;
+}
 
-  color: #d6dde6;
-  background-color: #080f17;
+a {
+  text-decoration: none;
 }
 
 h1,
@@ -19,13 +23,8 @@ h6 {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 #root {
-  max-width: 1344px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

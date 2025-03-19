@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import { resolve } from 'path'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import { resolve } from 'path';
+import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -8,9 +8,10 @@ export default defineConfig({
     alias: {
       app: resolve(__dirname, './src/app'),
       pages: resolve(__dirname, './src/pages'),
+      widgets: resolve(__dirname, './src/widgets'),
       features: resolve(__dirname, './src/features'),
-      shared: resolve(__dirname, './src/shared'),
-    },
+      shared: resolve(__dirname, './src/shared')
+    }
   },
-  plugins: [react()],
-})
+  plugins: [react()]
+});

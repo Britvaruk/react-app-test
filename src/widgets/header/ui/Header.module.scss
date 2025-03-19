@@ -1,0 +1,18 @@
+@import 'shared/styles/colors';
+
+.root {
+  padding: 1.5rem 0;
+  background-color: $bg-second;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
