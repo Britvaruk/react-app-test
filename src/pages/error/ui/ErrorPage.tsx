@@ -1,5 +1,1 @@
-export const ErrorPage = () => (
-  <div>
-    Error
-  </div>
-);
+export const ErrorPage = () => <div>Error</div>;

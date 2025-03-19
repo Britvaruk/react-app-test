@@ -1,4 +1,4 @@
-import { Paths } from "shared/config";
+import { Paths } from 'shared/config';
 
 export const ProfilePage = () => (
   <div>
