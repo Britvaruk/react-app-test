@@ -1,17 +1,26 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color: #D6DDE6;
-  background-color: #080F17;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color: #D6DDE6;
+  background-color: #080F17;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  max-width: 1344px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
